@@ -1,0 +1,13 @@
+s = input()
+ls = []
+for i in range(len(s)):
+    ls.append(s[i])
+distinct = set(ls)
+count = 0
+for i in distinct:
+    if ls.count(i) % 2 == 1:
+        count = count + 1
+    if count > 1:
+        print(False)
+        exit()
+print(True)
