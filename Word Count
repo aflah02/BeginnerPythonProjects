@@ -1,0 +1,3 @@
+x = input("what's on your mind today?")
+ls = x.split(' ')
+print(f"oh nice, you just told me what's on your mind in {len(ls)} words!")
