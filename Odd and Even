@@ -1,0 +1,10 @@
+x = int(input('Choose a number between 1 and 1000: '))
+if x < 0:
+    print("Number too small")
+elif x > 1000:
+    print("Number too large")
+else:
+    if x % 2 == 0:
+        print('The number is even')
+    else:
+        print('The number is odd')
